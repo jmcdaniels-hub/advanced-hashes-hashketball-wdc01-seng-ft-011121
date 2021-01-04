@@ -151,6 +151,8 @@ def shoe_size(player_lookup)
   end       
 end
 
+
+
 def team_colors(team_lookup)
   game_hash.each do |team, about_team|
     if about_team[:team_name] == team_lookup
@@ -201,6 +203,10 @@ def player_stats(player_lookup)
   end
 end 
 
+
+
+def big_shoe_rebound 
+end 
 
 
 
