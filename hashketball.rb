@@ -193,13 +193,12 @@ def player_stats(player_lookup)
       if team_description == :players
         team_info.each do |player| 
           if player[:player_name] == player_lookup
-            player 
+            return player 
           end  
         end   
       end 
     end
   end
-  return player
 end 
 
 
