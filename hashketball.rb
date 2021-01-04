@@ -188,6 +188,18 @@ end
 
 
 def player_stats(player_lookup)
+  game_hash.each do |team, about_team|
+    about_team.each do |team_description, team_info|
+      if team_description == :players
+        team_info.each do |player| 
+          if player[:player_name] == player_lookup
+            player 
+          end  
+        end   
+      end 
+    end
+  end
+  return player
 end 
 
 
