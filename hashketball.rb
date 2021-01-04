@@ -205,7 +205,7 @@ end
 
 
 
-def big_shoe_rebound 
+def big_shoe_rebounds 
   game_hash.each do |team, about_team|
     about_team.each do |team_description, team_info|
       if team_description == :players
